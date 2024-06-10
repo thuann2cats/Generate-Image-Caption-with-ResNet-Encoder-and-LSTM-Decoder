@@ -41,6 +41,8 @@ The resulting folder will have this structure, where subfolder names can be spec
 
 ![resulting folder](output_folder.png)
 
+During training, live loss and perplexity curves and training stats, including average gradient values for each layer, can be viewed by running: ``` tensorboard --logdir /FOLDER_PATH/TENSORBOARD_FOLDER_NAME``` (see below for more details).
+
 ```
 usage: train_image_captioning.py [-h] --data_path DATA_PATH --folder_path FOLDER_PATH [--lr LR] [--batch_size 8-2048]
                                  [--embed_size 64-2048] [--decoder_lstm_hidden_size 64-2048] [--num_epochs NUM_EPOCHS]
