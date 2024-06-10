@@ -144,7 +144,7 @@ options:
 
 Training loss & perplexity curve after a certain number of batches:
 <figure>
-  <img src="train_perplexity_curve.png" alt="Training loss & perplexity curve after a certain number of batches">
+  <img src="train_perplexity_curve.PNG" alt="Training loss & perplexity curve after a certain number of batches">
   
 </figure>
 
