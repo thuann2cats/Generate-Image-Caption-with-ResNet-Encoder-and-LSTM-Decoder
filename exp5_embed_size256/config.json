@@ -1,0 +1,11 @@
+{
+    "batch_size": 128,
+    "vocab_threshold": 5,
+    "vocab_from_file": true,
+    "embed_size": 256,
+    "hidden_size": 512,
+    "num_epochs": 1,
+    "save_every": 1,
+    "print_every": 100,
+    "log_file": "/home/nguyenthuan49/image-captioning-project/CVND---Image-Captioning-Project/exp5_embed_size256/training_log.txt"
+}
