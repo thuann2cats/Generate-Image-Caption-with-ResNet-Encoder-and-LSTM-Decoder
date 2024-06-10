@@ -142,6 +142,12 @@ options:
 
 ## Results
 
+Training loss & perplexity curve after a certain number of batches:
+<figure>
+  <img src="train_perplexity_curve.png" alt="Training loss & perplexity curve after a certain number of batches">
+  
+</figure>
+
 The model gave coherent and relevant captions for more than half of the images after being trained for just one epoch. When the time and computing resources allow, I plan to experiment with training for more epochs and implement quantitative measures to assess the model's generated captions against human-written captions, as done in the original paper.
 
 ### Images from COCO dataset
@@ -362,6 +368,6 @@ The model gave coherent and relevant captions for more than half of the images a
 
 ## Network Diagram
 
-This network diagram came from the original [Udacity GitHub]([here](https://github.com/udacity/CVND---Image-Captioning-Project/tree/master)) of the project.
+This network diagram came from the original [Udacity GitHub](https://github.com/udacity/CVND---Image-Captioning-Project/tree/master) of the project.
 
 ![network diagram](encoder-decoder.png)
